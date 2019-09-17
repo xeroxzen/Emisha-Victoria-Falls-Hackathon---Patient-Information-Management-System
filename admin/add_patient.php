@@ -35,16 +35,27 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        a{
+            text-decoration: none;
+            font-style: Serif;
+            font-size: 18px;
+            color: white;
+        }
+        a:hover{
+            color: purple;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
+    <h1 style="align:right; color: purple;">InnovEmisha Medical Health</h1>
     <div class="main">
-                <a href="index.php"><i class="fa fa-home "></i>Home</a>
-                <a href="index.php?add_patient"><i class="ti ti-thought"></i>Add New Patient</a>
-                <a href="index.php?view_patient"><i class="fa fa-spinner"></i>All Patient</a>
+                <a href="index.php"><i class="fa fa-home "></i>Home | </a>
+                <a href="index.php?add_patient"><i class="ti ti-thought"></i>Add New Patient | </a>
+                <a href="index.php?view_patient"><i class="fa fa-spinner"></i>All Patient | </a>
                 <a href="logout.php"><i class="fa fa-lock "></i>Admin Logout</a>
         <div class="container">
-                <h2 style="margin-bottom: 30px;">InnovEmisha Health System</h2>
             <div class="signup-content">
                 <div class="signup-img">
                     <img src="images/african-doctor.jpg" alt="">
@@ -146,7 +157,7 @@
 
                         <div class="form-submit">
                             <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
-                            <input type="submit" value="Submit Patient Form" class="submit" name="submit_patient" id="submit" />
+                            <input type="submit" value="Submit Patient Form " class="submit" name="submit_patient" id="submit" />
                         </div>
                     </form>
 <?php

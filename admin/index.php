@@ -16,31 +16,40 @@
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
-        h3, a{
+        a{
             text-decoration: none;
-            font-size: 0.8em;
+            font-style: Serif;
+            font-size: 18px;
+            color: white;
+        }
+        a:hover{
+            color: yellow;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+        <h1 style="align:right; color: purple;">InnovEmisha Medical Health</h1>
 
     <div class="main">
-                <a href="index.php"><i class="fa fa-home "></i>Home</a>
-                <a href="index.php?add_patient"><i class="ti ti-thought"></i>Add New Patient</a>
-                <a href="index.php?view_patient"><i class="fa fa-spinner"></i>All Patient</a>
+                <a href="index.php"><i class="fa fa-home "></i>Home | </a>
+                <a href="index.php?add_patient"><i class="ti ti-thought"></i>Add New Patient | </a>
+                <a href="index.php?view_patient"><i class="fa fa-spinner"></i>All Patient | </a>
                 <a href="logout.php"><i class="fa fa-lock "></i>Admin Logout</a>
             </div>
 
         <div class="container">
-                <h2 style="margin-bottom: 30px;">InnovEmisha Health System</h2>
             <div class="signup-content">
                 <div class="signup-img">
                     <img src="images/african-doctor.jpg" alt="">
                 </div>
                     <ul class="list-group">
                         <h2 class="list-group-item">Menu Options</h2>
-                        <h3 class="list-group-item list-group-item-primary"><a href="/patient-management-system/admin/add_patient.php">Add New Patient to the System</a></h3>
-                        <h3 class="list-group-item list-group-item-secondary"><a href="/patient-management-system/admin/view_patients.php">View All Patients in the System</a></h3>
+                        <h3 class="list-group-item list-group-item-primary"><a href="/patient-management-system/admin/add_patient.php">Register New Patient to the System</a></h3>
+                        <h3 class="list-group-item list-group-item-secondary"><a href="/patient-management-system/admin/view_patients.php">Show All Patients in the System</a></h3>
+                        <h3 class="list-group-item list-group-item-secondary"><a href="/patient-management-system/admin/view_patients.php">Track Patient Progress</a></h3>
+                        <h3 class="list-group-item list-group-item-secondary"><a href="/patient-management-system/admin/view_patients.php">Track Medication Availability</a></h3>
+                        <h3 class="list-group-item list-group-item-secondary"><a href="/patient-management-system/admin/logout.php">Admin Logout</a></h3>
                         <!-- <h3 class="list-group-item list-group-item-light"><a href="">This is a light list group item</a></h3> -->
                         <!-- <h3 class="list-group-item list-group-item-dark">This is a dark list group item</h3> -->
                     </ul>
